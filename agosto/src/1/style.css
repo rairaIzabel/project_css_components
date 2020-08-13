@@ -1,0 +1,226 @@
+html{
+    background: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+body{
+    margin: 0 auto;
+}
+
+
+p{
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+a{
+    color:#313131;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+
+.shadow{
+    box-shadow: 5px 5px 10px 5px #f1f1f1;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.mt-1{
+    margin-top: 20px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.flex{
+    display:flex;
+}
+
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+
+
+.white-text{
+    color: #fff;
+}
+
+.turquese-text{
+    color: aquamarine;
+}
+
+.purple-text{
+    color: #a487ca;
+}
+
+.rose-text{
+    color:#E986C1;
+}
+
+/*bg*/
+
+.white{
+   background: #fff!important;
+}
+
+.turquese{
+    background: aquamarine!important;
+}
+
+.purple{
+    background: #a487ca!important;
+}
+
+.rose{
+    background:#E986C1!important;
+}
+
+.grey{
+    background: #f8f8f8!important;
+}
+
+.text-font{
+    font-size: 17px!important;
+    color: #afafaf!important;
+}
+
+.center{
+    align-items: center;
+}
+
+.rounded{
+    border-radius: 360%;
+}
+
+.border-rounded{
+    border-radius: 10px;
+}
+
+
+.container{
+    width: auto;
+	margin: 0 auto;
+	display: flex;
+}
+
+.p-1{
+    padding:5px;
+}
+
+   
+.item{
+    flex: 1;
+}
+
+.p-1{
+    padding: 10px 5px 10px 5px;
+}
+
+.p-2{
+    padding: 20px 10px 20px 10px;
+}
+
+.p-3{
+    padding: 30px 20px 30px 20px;
+}
+
+
+.icon{
+    font-size: 50px;
+}
+
+.card{
+   float: left;
+    border-radius: 5px;
+    height: auto;
+    width:350px;
+    padding: 20px;
+    border: 1px solid #ececec;
+}
+
+.card-img{
+    height: 50px;
+    width: auto;
+}
+
+
+.card-title{
+    text-align: left;
+    color: #424242;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+.card-text {
+    text-align: left;
+    color: #424242;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.btn{
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.form-text{
+    border: 1px solid #e6e6e6;
+    border-radius: 5px 0px 0px 5px;
+}
+
+
+
+@media (max-width: 400px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .btn{
+        border-radius: 5px ;
+        border: none;
+        cursor: pointer;
+        padding: 7px;
+    }
+
+    .form-text{
+        border: 1px solid #e6e6e6;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+}
+
