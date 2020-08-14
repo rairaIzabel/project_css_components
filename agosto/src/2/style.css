@@ -15,33 +15,11 @@ p{
     height: auto;
 }
 
-a{
-    color:#313131;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-}
-
 
 .shadow{
     box-shadow: 5px 5px 10px 5px #f1f1f1;
 }
 
-.right{
-    right: 0;
-}
-
-.left{
-    left: 0;
-}
-
-.top{
-    top: 0;
-}
-
-.bottom{
-    bottom: 0;
-}
 
 .m-1{
     margin: 10px;
@@ -139,9 +117,6 @@ a{
     align-items: center;
 }
  
-.rounded{
-    border-radius: 360%;
-}
 
 .border-rounded{
     border-radius: 10px;
@@ -152,10 +127,6 @@ a{
     width: auto;
 	margin: 0 auto;
 	display: flex;
-}
-
-.flex-end {
-	align-self: flex-end;
 }
 
 
@@ -181,10 +152,6 @@ a{
 }
 
 
-.icon{
-    font-size: 50px;
-}
-
 .card{
    float: left;
     border-radius: 5px;
@@ -205,11 +172,6 @@ a{
     font-size: xx-large;
     text-align: center;
     line-height: 80px;
-}
-
-.card-img{
-    height: 50px;
-    width: auto;
 }
 
 
@@ -234,11 +196,6 @@ a{
     align-self: flex-end;
 }
 
-.btn{
-    border-radius: 0px 5px 5px 0px;
-    border: none;
-    cursor: pointer;
-}
 
 
 .form-text{
@@ -246,12 +203,4 @@ a{
     border-radius: 5px 0px 0px 5px;
 }
 
-
-
-@media (max-width: 400px) {
-    .row{
-        flex-direction: column;
-    }
-
-}
 
